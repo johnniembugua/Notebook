@@ -65,7 +65,7 @@ class NoteFormWidget extends StatelessWidget {
         ),
         decoration: InputDecoration(
           border: InputBorder.none,
-          hintText: 'Title',
+          hintText: 'Your Note Title',
           hintStyle: TextStyle(color: Colors.white70),
         ),
         validator: (title) =>
